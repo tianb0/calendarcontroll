@@ -34,4 +34,6 @@ xcodebuild -create-xcframework \
 -framework './build/CalendarControl.framework-iphoneos.xcarchive/Products/Library/Frameworks/CalendarControl.framework' \
 -framework './build/CalendarControl.framework-catalyst.xcarchive/Products/Library/Frameworks/CalendarControl.framework' \
 -output './build/CalendarControl.xcframework'
+
+# then drag the xcframework to the project that wants to integrate with the library in the Frameworks, Libraries and Embedded Content section
 ```
