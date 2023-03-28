@@ -23,7 +23,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "CalendarControl",
-            path: "./Sources/CalendarControl.xcframework"
+            path: "./Sources/CalendarControl.xcframework.zip",
+            checksum: "75b0c9bc16bbf50725a7c1120937c182345799a41aa0ff336f7c1d95a6c9e43a",
             dependencies: []),
     ]
 )
